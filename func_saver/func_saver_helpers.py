@@ -13,6 +13,7 @@ import tempfile
 import json
 
 from string_between import string_between
+from superhex import hex
 
 try:
     import __builtin__ as builtins

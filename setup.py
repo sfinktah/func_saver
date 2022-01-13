@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
-
+VERSION="0.0.2"
 with open("README.rst", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 setup(
     name='func_saver',
-    version='0.0.1',
+    version=VERSION,
     url='https://github.com/sfinktah/func_saver',
     long_description=long_description,
     long_description_content_type="text/x-rst",
@@ -20,6 +20,6 @@ setup(
     ],
     python_requires=">=2.7",
     packages=find_packages(),
-    install_requires=[],
+    install_requires=["string_between", "superhex"],
 )
 
